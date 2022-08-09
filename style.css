@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.flex-container {
+    display: flex;
+    background-color: beige;
+    align-self: center;
+}
+.wrapper {
+    flex-direction: column;
+    max-width: 300px;
+    align-items: center;
+}
+.wrapper h1{
+    margin-bottom: 35px;
+    margin-top: 10px;
+}
+div.input{
+    margin-bottom: 5px;
+}
+input.input{
+    height: 35px;
+    margin-right: 4px;
+    border-radius: 8px;
+}
+button.input{
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    width: 80px;
+}
+.items-div{
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+.items-list {
+    flex-direction: column;
+}
+input.item-delete-button{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+}
+ul li{
+    margin-top : 5px;
+
+}
+input.list-item{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.marked-item {
+    text-decoration: line-through;
+    color : gray;
+}
